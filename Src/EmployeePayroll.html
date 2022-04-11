@@ -16,18 +16,42 @@
         <div class="logo-content">
             <img src="/Assets/logo.png" alt="logo">
             <div>
-                <span class="emp-text">EMPLOYEE</span><br />
+                <span class="emp-text">EMPLOYEE</span><br>
                 <span class="emp-text emp-payroll">PAYROLL</span>
             </div>
         </div>
     </header>
     <div class="form-content">
         <form class="form" action="#" onsubmit="save(event);return false">
+
             <!-- UC 2 -->
             <div class="form-head">Employee Payroll form</div>
             <div class="row-content">
                 <label class="label text" for="name">Name</label>
-                <input class="input" type="text" id="name" name="name" placeholder="Your name" required />
+                <input class="input" type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+
+            <!-- UC 3 -->
+            <div class="row-content">
+                <label class="label text" for="profile">Profile image</label>
+                <div class="profile-radio-content">
+                    <label>
+                        <input type="radio" name="profile" id="profile1" required>
+                        <img class="profile" id="image1" src="/Assets/Ellipse -1.png">
+                    </label>
+                    <label>
+                        <input type="radio" name="profile" id="profile2" required>
+                        <img class="profile" id="image2" src="/Assets/Ellipse -2.png">
+                    </label>
+                    <label>
+                        <input type="radio" name="profile" id="profile3" required>
+                        <img class="profile" id="image3" src="/Assets/Ellipse -3.png">
+                    </label>
+                    <label>
+                        <input type="radio" name="profile" id="profile4" required>
+                        <img class="profile" id="image4" src="/Assets/Ellipse -4.png">
+                    </label>
+                </div>
             </div>
 </body>
 
